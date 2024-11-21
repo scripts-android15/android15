@@ -1,11 +1,6 @@
 #!/bin/bash
 
-# Exit script on error
-# set -e
-
 repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
-# resync
-# /opt/crave/resync.sh
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf packages/apps/Updater
 rm -rf vendor/lineage

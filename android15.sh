@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Exit script on error
-set -e
+# set -e
 
 repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
 /opt/crave/resync.sh
